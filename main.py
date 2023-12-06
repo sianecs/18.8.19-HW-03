@@ -3,7 +3,7 @@ while True:
     try:
         tickets_count = int(input("Введите количество билетов: "))
         if tickets_count <= 0:
-            print("Количество билет не может быть нулем или отрицательным!")
+            print("Количество билетов не может быть нулем или отрицательным!")
             continue
         break
     except ValueError:
